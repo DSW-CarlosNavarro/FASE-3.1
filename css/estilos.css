@@ -1,0 +1,30 @@
+.encabezado{
+    background-color: brown;
+    padding: 35px;
+}
+
+.navegacion{
+   background-color: rgb(228, 232, 209);
+   padding: 35px;
+}
+
+.contenedor{
+   background-color: green;
+   padding: 35px;
+   display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.principal{
+   background-color: chocolate;
+   padding: 35px;
+   grid-column:1/4 ;
+} 
+.lateral{
+   background-color: aqua;
+   padding: 35px;
+   grid-column: 1/2;
+}
+.pie{
+   background-color: rgb(58, 42, 165);
+   padding: 35px;
+}
